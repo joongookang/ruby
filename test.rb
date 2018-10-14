@@ -44,7 +44,7 @@ while true do
   else
     sum = SumMoney(selection, sum)
   end
-　#ジュースの在庫
+
   count =  kocount+recount+wacount
 
 
@@ -52,7 +52,7 @@ if sum >= 100 && count > 0
   puts("ジュース買いますか？はい(1)いいえ(2)")
   selection = gets.chomp()
   if selection == "1"
-    ＃コーラ　1、レッドブル　2、水　3を　入力
+    #コーラ　1、レッドブル　2、水　3を　入力
     puts("コーラ(1)（値段:120円、在庫:"+ kocount.to_s + "本)")
     puts("レッドブル(2)（値段:200円、在庫:"+ recount.to_s + "本)")
     puts("水(3)（値段:100円、在庫:"+ wacount.to_s + "本)")
