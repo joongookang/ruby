@@ -35,7 +35,7 @@ sales = 0
 while true do
   puts("お金をいれてください!")
   puts("入力してください。払い戻し(3)")
-  ＃お金の金額を入力　払い戻しは6を入力
+  #お金の金額を入力　払い戻しは6を入力
   puts("合計:"+sum.to_s+"円")
   selection = gets.chomp()
   if selection == "3"
@@ -44,7 +44,7 @@ while true do
   else
     sum = SumMoney(selection, sum)
   end
-　＃ジュースの在庫
+　#ジュースの在庫
   count =  kocount+recount+wacount
 
 
